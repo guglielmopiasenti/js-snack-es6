@@ -44,3 +44,9 @@ console.log(data);
 const bestStudents = data.filter((student) => student.grades >= 70);
 
 console.log(bestStudents);
+
+const bestStudentsHighId = data.filter(
+  (student) => student.grades >= 70 && student.id >= 120
+);
+
+console.log(bestStudentsHighId);
