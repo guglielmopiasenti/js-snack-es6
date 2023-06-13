@@ -32,3 +32,9 @@ To prepare the classroom for a new course, we have to carry out a series of oper
    196 | Luigi Grimaldello | 68
    102 | Piero della Francesca | 50
    120 | Francesca da Polenta | 84
+
+# Procedure
+
+1. I create an array of objects with the given info.
+2. I use a `.filter` array method to create a list of all students who have a total grade above 70.
+3.
