@@ -18,3 +18,12 @@ const guestList = [
 ];
 
 // .map array method to add info about seatings
+const placeCards = guestList.map((guest, index) => {
+  return {
+    tableName: tableName,
+    guestName: guest,
+    seatOccupied: index + 1,
+  };
+});
+
+console.log(placeCards);
