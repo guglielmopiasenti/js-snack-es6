@@ -7,6 +7,13 @@ The Great Gatsby asked us to create place cards for the guests' table at his meg
 But the typography to print everything wants us to send it a list of guests in which each guest is a javascript object which has as attributes: table name, guest name and seat occupied.
 We generate and print the placeholder list in the console.
 
+# PROCEDURE
+
+1. I create the array with names.
+2. I create the `const` variable "VIP Table".
+3. I use the `.map` array method to add information about the seatings.
+4. I print it with `console.log` on the console.
+
 ## SNACKS 2
 
 We have a list of students of a faculty, identified by id, name and total sum of their exam marks...
