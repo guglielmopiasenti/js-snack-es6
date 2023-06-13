@@ -50,3 +50,13 @@ const bestStudentsHighId = data.filter(
 );
 
 console.log(bestStudentsHighId);
+
+// `.map` method to capitalize letters names in the array
+const capitalizedNames = data.map((student) => {
+  return {
+    ...student,
+    name: student.name.toUpperCase(),
+  };
+});
+
+console.log(capitalizedNames);
