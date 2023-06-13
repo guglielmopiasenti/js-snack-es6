@@ -38,3 +38,9 @@ const data = [
 ];
 
 console.log(data);
+
+// .filter array to create lists
+
+const bestStudents = data.filter((student) => student.grades >= 70);
+
+console.log(bestStudents);
