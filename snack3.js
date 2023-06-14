@@ -41,3 +41,11 @@ const bikes = [
     weight: 6.7,
   },
 ];
+
+// defining lightestBike and .find arrow function
+const lightestBike = bikes.find((bike) => {
+  // math.min + .map arrow function
+  return bike.weight === Math.min(...bikes.map((bike) => bike.weight));
+});
+
+console.log(lightestBike);
