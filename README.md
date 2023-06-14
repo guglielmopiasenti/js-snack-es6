@@ -46,6 +46,14 @@ Create an array of objects:
 Each object will describe a racing bike with the following properties: name and weight.
 Print the bike with the least weight in the console using destructuring
 
+# PROCEDURE
+
+1. Create an array of objects with the bikes' name.
+2. Define the `lightestBike` variable and assign it the result of the `.find` method using an arrow function as the callback function for the `.find` method. This function will be called for each element in the bikes array
+3. Within the callback function, define the condition to find the lightest bike by comparing the weight property:
+4. Use the Math.min function along with the spread operator (...) to find the minimum weight among all the bikes in the array:
+5.
+
 ## SNACKS 4
 
 Create an array of soccer team objects.
