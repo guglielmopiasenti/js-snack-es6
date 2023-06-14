@@ -40,4 +40,11 @@ console.log(namesAndFouls);
 
 // Print namesAndFouls on the page
 const outputElement = document.getElementById("output");
-outputElement.innerHTML = namesAndFouls;
+let outputHTML = "";
+
+namesAndFouls.forEach((team) => {
+  outputHTML += `<p>${team.name}</p>`;
+  outputHTML += `<p>Fouls Conceded: ${team.foulsConceded}</p>`;
+});
+
+outputElement.innerHTML = outputHTML;
