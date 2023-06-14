@@ -39,3 +39,21 @@ To prepare the classroom for a new course, we have to carry out a series of oper
 2. I use a `.filter` array method to create a list of all students who have a total grade above 70.
 3. I use a `.filter` array method to create a list of all students who have a total grade above 70 and ids above 120.
 4. I use a `.map` method to capitalize letters names in the array
+
+## SNACKS 3
+
+Create an array of objects:
+Each object will describe a racing bike with the following properties: name and weight.
+Print the bike with the least weight in the console using destructuring
+
+## SNACKS 4
+
+Create an array of soccer team objects.
+Each team will have different properties: name, points scored, fouls conceded.
+name will be the only property to fill in, the others will all be set to 0.
+Generate random numbers instead of 0s in the properties points made and fouls suffered.
+Finally, using destructuring, we create a new array whose elements contain only names and fouls and print everything in the console.
+
+### BONUS
+
+Print on page as well as console!
