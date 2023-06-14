@@ -67,3 +67,13 @@ Finally, using destructuring, we create a new array whose elements contain only 
 ### BONUS
 
 Print on page as well as console!
+
+# PROCEDURE
+
+1. Create an array of objects with the team names, points and fouls.
+2. Use a `.forEach` loop to iterate between every team
+3. create a `Math.random` function for each `pointScored` and `foulsConceded` then print to console.
+4. Print the pointsScored and foulsConceded values of each team to the console.
+   4b. create a `Math.random` function for each `pointScored` and `foulsConceded`
+   4c. Use destructuring to extract the name and foulsConceded properties from each team object.
+5. Print namesAndFouls on the page
